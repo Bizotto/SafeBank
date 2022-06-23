@@ -11,6 +11,7 @@
 }
 
 .title_sobre_degrade {
+    text-align: center;
     animation: gradient 5s ease-in-out infinite;
     background:  linear-gradient(90deg, #CE4DA4 0.01%, #7353E5 100%);
     background-size: 300% 300%;
@@ -67,9 +68,31 @@
 }
 
 button.site_button:hover {
+    align-items: center;
     animation: gradient 5s ease-in infinite;
     background-size: 300% 300%;
     box-shadow: none;
     color: black;
     z-index: 1;
   }
+
+.iconesLinguagens img{
+width: 130px;
+height: 130px;
+border-radius: 21px;
+margin: 0 20px;
+object-fit: fill;
+}
+
+.linguagens{
+    gap: 8px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.linguagens h1{
+margin-bottom: 20px;
+    font-size: 4em;
+}
