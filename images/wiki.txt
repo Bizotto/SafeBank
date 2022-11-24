@@ -1,0 +1,199 @@
+# **Especificação de Requisitos de Software**
+
+## Projeto: SafeBank
+
+**Equipe**:
+
+Carlos Henrique Agostinho Berkenbrock e Nicolas Ian Bizotto 
+
+**Disciplina: Engenharia de Software**
+
+Professor: Edinilson da Silva Vida
+2022 – Faculdade Cesusc
+
+## 1. INTRODUÇÃO
+
+Esta seção tem por objetivo documentar o projeto referente ao Projeto de Conclusão do Curso de Análise e Desenvolvimento de Sistemas da Faculdade Cesusc. Nas próximas seções, serão apresentados os principais problemas que motivaram a realização deste projeto, a ferramenta de planejamento estratégico (Business Model Canvas), a visão geral da solução, e a descrição dos principais usuários da ferramenta.
+
+### 1.1 Motivação
+
+  Esta seção descreve a situação atual do negócio a ser explorado pelo projeto e o impacto que a nova solução irá prover.
+ O SafeBank, tem como sua principal motivação levar para a sociedade uma forma segura de planejar e salvar senhas, de maneira com que seja simples e de fácil entendimento para todas as idades, o principal problema pode ser o vazamento de informações por alguns tipos de vírus e malwares, havendo a possibilidade de uma invasão de nosso banco de dados.
+
+| O problema é...      | Usuários com dificuldades de gerenciar suas senhas, problemas em lembrar suas senhas, hacking antiético.|
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Que afeta...         | Todos os usuários que utilizam de diversas contas para login no seu dia á dia, dificultando o rápido a acesso a determinado site ou app.|
+| O impacto disto é... | Numero elevado de pessoas que esquecem suas senhas, sofrem de hacking, |
+| A solução seria...   | Criar um aplicativo capaz de realizar o armazenamento de senhas, criação de tokens.|
+
+### 1.2 Business Model Canvas
+
+  Esta seção apresenta o Business Model Canvas, mais conhecido como Canvas, uma ferramenta de planejamento estratégico formatada em nove blocos, que permite desenvolver, discutir e visualizar o modelo de negócio relacionado ao projeto proposto. Neste sentido, são apresentadas algumas sugestões de operação e geração de valor do negócio ao mercado, e de mapeamento de possíveis fluxos e processos.
+
+![](https://github.com/CarlosBerken/Safebank/blob/main/images/Canvas.png)
+
+### 1.3 Visão Geral da Solução
+
+  **Esta seção apresenta de maneira detalhada as principais ideias do projeto a ser desenvolvido, destacando as principais funcionalidades que caracterizam o sistema.
+  Sumário Executivo:**
+  A proposta do SafeBank é desenvolver um aplicativo de gerenciamento de senhas e token. Sua principal função é que os usuários possam armazenar suas senhas e gerenciar de maneira rápida e segura. Todas suas informações serão guardadas de maneiras criptografas e sempre visando a segurança de seu dados.
+
+## 2. DETALHAMENTO DO PROCESSO DE DESENVOLVIMENTO DE SOFTWARE
+  **Esta seção descreve as diversas fases, tarefas e atividades que compreendem o desenvolvimento do produto de software. Um processo é um conjunto estruturado de atividades necessárias para desenvolver um sistema de software.**
+
+### 2.1 Especificação de Requisitos de Software
+- Processo de desenvolvimento de Software: Scrum
+- Concepção inicial da ideia no Modelo Canvas
+### 2.2 Projeto
+- Desenvolvimento do Termo de Abertura do Projeto
+- EAP
+- Projeto conceitual, MER
+- Identidade Visual: Definição da UI e padrões desejados para UX
+- Definição dos Frameworks: Mobile: React Native + TypeScript e MongoDB, Web: Html+CSS, TypeScript e MongoDB
+- Criação dos Diagramas de baixa e alta fidelidade.
+### 2.3 Codificação das aplicações
+- Codificação do ambiente Mobile
+- Codificação do ambiente WEB
+- Codificação do ambiente Desktop
+### 2.4 Lançamento da versão Alfa
+### 2.5 Testagem
+### 2.6 Lançamento da Versão Beta
+### 2.7 Coleta de feedback e refinamento do protótipo
+### 2.8 Lançamento da versão Final (1.0)
+### 2.9 Implantação:
+- Manuais do sistema
+
+## 3. ESTRUTURA ANALÍTICA DO PROJETO
+
+  **Esta seção descreve a EAP (Estrutura Analítica do Projeto), uma subdivisão hierárquica do trabalho do projeto em partes menores, mais facilmente gerenciáveis. Nela, está organizado o que deve ser feito para produzir as entregas do projeto.**
+
+![](https://github.com/CarlosBerken/Safebank/blob/main/images/EAP%20-%20SafeBank.png)
+
+## 4. CRONOGRAMA INICIAL
+
+  **Esta seção apresenta um cronograma inicial para o projeto, destacando quais serão os principais marcos do projeto, o que conterão e quando eles ocorrerão.**
+
+| Etapas da EAP | Fases/Marcos do Projeto        | Entregáveis                                                                                                            | Data de Início Prevista | Data de Término Prevista |
+  | ------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------------------ |
+  | 1.1           | Ideia         | Emaranhado de ideias sobre nosso projeto                                                                                                 | 01/06/2021              | 07/09/2021               |
+  |               | Canvas              | criação Painel do Canvas                                                                                                       |18/06/2022  | 23/06/2022               |
+  |               | criação de requisitos   | Doc. Especificação de requisitos                                                                                       |18/06/2022             | 25/06/2022               |
+  |               | Desenvolvimento da EAP         | Criado o fluxograma da EAP                                                                                                  |     18/06/2022         |       24/06/2022          |
+  |               | Desenvolvimento do MER         | Fluxograma do MER                                                                                                      | 18/06/2022               | 25/06/2022            |
+  | 1.2           | Modelagem da identidade Visual | Mapa da empatia, Personas, Protótipo de baixa fidelidade , Guia de estilo UI e protótipo de alta fidelidade | 18/06/2022               | 25/06/2022               |
+  |               | Codificação Mobile  | Tela de login, tela principal                                            |18/06/2022              | 27/09/2022               |
+  |               | Codificação WEB                | Site do projeto da API com: tela inicial, tela de produtos, tela de blog.                                              | 18/05/2022              | 30/07/2023               |
+  |               | Testagem                       | Versão beta        | 20/06/2022              | 30/08/2023               |
+  | 1.4           | Homologação                    | Checagem completa dos requisitos                                                                                       | 20/06/2022              | 25/09/2023               |
+  | 1.3           | Divulgação e venda             | Campanha de Marketing, captação de usuários e clientes, parcerias de divulgação, venda.                                | 20/06/2022              |!!!                      |
+  | 1.4           | Lançamento do APP              | lançamento da versão 1.0 (final)                                                                                       | 25/09/2022              | 30/01/2024               |
+  |               | Implantação                    | Processo de treinamento dos compradores e suportadores da API                                                                        | 25/10/2022              | !!!                      |
+
+## 5. ESPECIFICAÇÃO DE REQUISITOS
+  **Esta seção descreve, de forma organizada os itens que caracterizam a finalidade de uso do sistema como**, por exemplo, os atores, os requisitos funcionais (RFs), os requisitos não funcionais (RNFs), as regras de negócio (RNs), as mensagens do sistema (MSGs), os requisitos adiados e o diagrama de casos de uso. O objetivo do documento é fornecer aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação da aplicação.
+  A prioridade de cada RF e RNF pode ser classificada como “essencial”, “importante” e “desejável”, de acordo com a descrição abaixo:
+  Essencial: Um RF ou RNF essencial, se não for atendido, impede que a aplicação entre em funcionamento. RFs ou RNFs essenciais são imprescindíveis, isto é, têm de ser implementados impreterivelmente.
+  Importante: Se um RF ou RNF importante não for atendido, a aplicação pode até entrar em funcionamento, mas de forma não satisfatória. RFs ou RNFs importantes deveriam ser implementados, mas, se não forem, não impedirão a implantação e utilização da aplicação.
+  Desejável: Um RF ou RNF desejável, por fim, é aquele cuja ausência de implementação não compromete a operacionalização da aplicação, isto é, a aplicação pode funcionar de forma satisfatória mesmo sem sua implementação. Esses RFs ou RNFs podem ser deixados para versões posteriores da solução, caso não haja tempo hábil para implementá-los na versão que está sendo especificada.
+
+### 5.1 ATORES
+
+**Esta seção apresenta cada ator que desempenha um papel particular de usuário da aplicação.**
+
+| Ator    | Descrição                                                                                                                                                                                                                                                            |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Usuário  | Pessoas que possuem dificuldade no gerenciamento de suas senhas. O aplicativo leva ao usuário todo o gerenciamento da senhas dos aplicativos cadastrado, levando ao usuário segurança, acesso rápido e prático.  |                                                                        
+
+### 5.2 REQUISITOS FUNCIONAIS
+
+**Esta seção apresenta as necessidades, características ou funcionalidades esperadas nos processos que são atendidos pelo software proposto.**
+
+**Esta seção apresenta as necessidades, características ou funcionalidades esperadas nos processos que são atendidos pelo software proposto.**
+
+| [RF1] O sistema deve permitir o cadastro de novos usuários;  |        |           |     |            |     |           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                                                                                                                       |        | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                                                                                                                         | Usuário |      x     |     |            |     |           |
+
+| [RF2] O sistema deve exibir os termos e condições de uso para o uso do APP ; |        |           |     |            |     |           |
+| --------------------------------------------------------------------------------------- | ------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                             |        | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                               |Usuário |    x       |     |            |     |           |
+
+| [RF3] O sistema deve enviar um token nas mensagens de texto para confirmação de cadastro; |        |           |     |            |     |           |
+| -------------------------------------------------------------------------------- | ------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                      |        | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                        | Usuário |           |     |      x      |     |           |
+
+| [RF4] O sistema deve permitir A geração de senhas novas e a aleatoriedade da mesma; |        |           |     |            |     |           |
+| ------------------------------------------------------------------------------------ | ------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                          |        | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                            | Usuário |      x     |     |            |     |           |
+
+| [RF5] O sistema deve permitir a importação de senhas já criadas pelo usuário; |         |           |     |            |     |           |
+| --------------------------------------------------------------------------- | ------- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                 |         | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                   | Usuário |     x      |     |            |     |           |
+
+| [RF6] O sistema deve permitir a gestão e a alteração de senhas criadas dentro do app  ; |         |           |     |            |     |           |
+| ------------------------------------------------------------------------ | ------- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                              |         | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                | Usuário |           |     |       x     |     |           |
+
+| [RF7] O sistema deve não permitir a alteração da senha mestra ; |         |           |     |            |     |           |
+| ------------------------------------------------------------------------------------- | ------- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                           |         | Essencial |     | Importante |     | Desejável |
+| Ator(es):                                                                             | Usuário |      x     |     |            |     |           |
+
+### 5.3 REQUISITOS NÃO FUNCIONAIS
+
+**Nesta seção, estão especificados os requisitos não funcionais ou atributos de qualidade que não estão diretamente relacionados à funcionalidade de um sistema.**
+
+| [RNF01] O sistema deve permitir a autenticação dos usúarios; |     |           |     |            |     |           |
+| ---------------------------------------------------- | --- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                          |     | Essencial |     | Importante |     | Desejável |
+
+| [RNF02] O sistema deve enviar uma mensagem com a confirmação que foi cadastrado uma nova senha de um app; |     |           |     |            |     |           |
+| ------------------------------------------------------------------------------------------------------ | --- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                                            |     | Essencial |     | Importante |     | Desejável |
+
+
+| [RNF03] O sistema deve esconder a senha do app até que seja selecionado pelo usúario; |                                                                                  |           |     |            |     |           |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                       |                                                                                  | Essencial |     | Importante |     | Desejável |
+
+
+### 6.4 REGRAS DE NEGÓCIO
+
+**Esta seção apresenta as regras de negócio, que são declarações que definem ou restringem algum aspecto do negócio e que podem ser implementadas por um sistema computacional.**
+
+| [RN1] O Usuário deve efetuar o cadastro previamente no APP; |     |           |     |            |     |           |
+| ----------------------------------------------------- | --- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                           |     | Essencial |     | Importante |     | Desejável |
+| Casos associados:                              |     |           |     |    x        |     |           |
+
+| [RN2] O sistema deve enviar um código de validação para o email do usuário; |                                                                                                                                                                    |           |     |            |     |           |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                                     |                                                                                                                                                                    | Essencial |     | Importante |     | Desejável |
+| Casos de uso associados:                                                                        | RF3-  O sistema deve enviar um token nas mensagens de texto para confirmação de cadastro; |           |     |            |     |           |
+
+| [RN3] sistema só completará o cadastro se o campo do código de validação for o mesmo código enviado ao email do Usuário; |                                                                                                                                                                    |           |     |            |     |           |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                                                                                 |                                                                                                                                                                    | Essencial |     | Importante |     | Desejável |
+| Casos de uso associados:                                                                                                                    |  |           |     |            |     |           |
+
+| [RN4] O sistema só será liberado caso o Usuário aceite os Termos e condições de uso; |                                                                                         |           |     |            |     |           |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | --------- | --- | ---------- | --- | --------- |
+| Prioridade:                                                                          |                                                                                         | Essencial |     | Importante |     | Desejável |
+| Casos de uso associados:                                                             | [RF2] O sistema deve exibir os termos e condições de uso para o uso do APP; |           |     |            |     |           |
+
+## 6. DIAGRAMA DE CASO DE USO
+
+**Essa seção apresenta todos os requisitos funcionais da aplicação, especificados como casos de uso.**
+
+![](https://github.com/CarlosBerken/Safebank/blob/main/images/Diagrama.PNG)
+
+## 7 REFERÊNCIAS
+
+_Material de apoio das aulas_
+
